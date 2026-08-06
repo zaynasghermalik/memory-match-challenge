@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"e:/Zain Task\" && ls -la dist/ && echo \"---exact size---\" && stat -c '%s bytes' dist/index.html 2>/dev/null || wc -c dist/index.html)",
+      "Read(//e/Zain Task/**)"
+    ]
+  }
+}
